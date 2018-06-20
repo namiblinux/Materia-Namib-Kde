@@ -11,7 +11,7 @@ url="https://github.com/PapirusDevelopmentTeam/${pkgbase}"
 license=('GPL3')
 options=('!strip')
 source=(${pkgbase}-${pkgver}.tar.gz::"${url}/archive/${pkgver}.tar.gz")
-sha256sums=('5bdac7c14ffa9667fe088769ccfe28640b2161531f39af4de07e9c4ead614795')
+sha256sums=('f8f5d731e19864c576bf556cdb0b150c40d6941607c196a81a5b599d8d42eb4e')
 
 prepare() {
     cd materia-kde-${pkgver}
