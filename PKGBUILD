@@ -3,7 +3,7 @@
 
 pkgbase=materia-kde
 pkgname=('materia-namib-kde' 'kvantum-theme-materia-namib')
-pkgver=20180701
+pkgver=20180904
 pkgrel=1
 pkgdesc="Materia theme for KDE Plasma 5 with Numix color"
 arch=('any')
