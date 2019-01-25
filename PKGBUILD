@@ -41,9 +41,6 @@ prepare() {
 
     find ./yakuake/skins/materia-dark/tabs.skin -type f -exec sed -i 's/Skin=Materia Dark/Skin=Materia Namib Dark/g' {} \;
     find ./yakuake/skins/materia-dark/title.skin -type f -exec sed -i 's/Skin=Materia Dark/Skin=Materia Namib Dark/g' {} \;
-   
-    find ./yakuake/skins/materia/tabs.skin -type f -exec sed -i 's/Skin=Materia/Skin=Materia Namib/g' {} \;
-    find ./yakuake/skins/materia/title.skin -type f -exec sed -i 's/Skin=Materia/Skin=Materia Namib/g' {} \;
     
     # Move file and folder
     mv aurorae/themes/Materia-Dark/Materia-Darkrc aurorae/themes/Materia-Dark/Materia-Namib-Darkrc
@@ -68,7 +65,6 @@ prepare() {
     mv Kvantum/MateriaLight Kvantum/MateriaNamibLight
 
     mv plasma/desktoptheme/Materia plasma/desktoptheme/MateriaNamib
-    mv yakuake/skins/materia yakuake/skins/materia-namib
     mv yakuake/skins/materia-dark yakuake/skins/materia-namib-dark
 }
 
