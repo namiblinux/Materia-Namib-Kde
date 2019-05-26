@@ -3,7 +3,7 @@
 
 pkgbase=materia-kde
 pkgname=('materia-namib-kde' 'kvantum-theme-materia-namib')
-pkgver=20190117
+pkgver=20190518
 pkgrel=1
 pkgdesc="Materia theme for KDE Plasma 5 with Numix color"
 arch=('any')
@@ -11,7 +11,7 @@ url="https://github.com/PapirusDevelopmentTeam/${pkgbase}"
 license=('GPL3')
 options=('!strip')
 source=(${pkgbase}-${pkgver}.tar.gz::"${url}/archive/${pkgver}.tar.gz")
-sha256sums=('6c26bfbe16be259910daaf03e17b59e932508ee29e7360d9d4352d61bc40890c')
+sha256sums=('5ab4143f2bc3d9587b2184124f1eb7b041085a4e275d88eb303f4a7d4c5a56b3')
 
 prepare() {
     cd materia-kde-${pkgver}
